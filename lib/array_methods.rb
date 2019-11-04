@@ -7,7 +7,7 @@ def find_element_index(array, value_to_find)
     end
     count += 1
   end
-  puts index
+  index
 end
 
 def find_max_value(array)
@@ -19,7 +19,7 @@ def find_max_value(array)
     end
     count += 1
   end
-  puts max_value
+  max_value
 end
 
 def find_min_value(array)
@@ -31,6 +31,7 @@ def find_min_value(array)
     end
     count += 1
   end
+  min_value
 end
 
 
